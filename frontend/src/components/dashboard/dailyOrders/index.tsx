@@ -58,7 +58,7 @@ export const DailyOrders: React.FC = () => {
     return (
         <DailyOrderWrapper>
             <TitleArea>
-                <Title level={3}>{t("dashboard.dailyOrders.title")}</Title>
+                <Title level={3}>{"hello world"}</Title>
                 <TitleAreNumber>
                     <Text strong>{data?.data.total ?? 0} </Text>
 
