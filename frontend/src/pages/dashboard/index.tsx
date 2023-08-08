@@ -21,7 +21,7 @@ export const DashboardPage: React.FC = () => {
             <Col md={24}>
                 <Row gutter={[16, 16]}>
                     <Col xl={10} lg={24} md={24} sm={24} xs={24}>
-                        <Card
+                        {/* <Card
                             bodyStyle={{
                                 padding: 10,
                                 paddingBottom: 0,
@@ -34,10 +34,10 @@ export const DashboardPage: React.FC = () => {
                             }}
                         >
                             <DailyRevenue />
-                        </Card>
+                        </Card> */}
                     </Col>
                     <Col xl={7} lg={12} md={24} sm={24} xs={24}>
-                        <Card
+                        {/* <Card
                             bodyStyle={{
                                 padding: 10,
                                 paddingBottom: 0,
@@ -50,10 +50,10 @@ export const DashboardPage: React.FC = () => {
                             }}
                         >
                             <DailyOrders />
-                        </Card>
+                        </Card> */}
                     </Col>
                     <Col xl={7} lg={12} md={24} sm={24} xs={24}>
-                        <Card
+                        {/* <Card
                             bodyStyle={{
                                 padding: 10,
                                 paddingBottom: 0,
@@ -66,7 +66,7 @@ export const DashboardPage: React.FC = () => {
                             }}
                         >
                             <NewCustomers />
-                        </Card>
+                        </Card> */}
                     </Col>
                 </Row>
             </Col>
